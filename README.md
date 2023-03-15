@@ -10,10 +10,14 @@ Requires `protobuf` installed, but not `sentencepiece` (though you'll probably
 still want that).
 
 ```
-Usage: add_tokens.py [original model] [output model] [token list]
+Usage: python add_tokens.py [original model] [output model] [token list]
 ```
 
-`[token list]` is the name of a text file with the following format:
+* `[original model]` is the path to the original tokenizer model, which is
+included as `etc/tokenizer.model` for convenience.
+* `[output model]` is the file path for the modified tokenizer model, and
+should not be the same as `[original model]`
+* `[token list]` is the name of a text file with the following format:
 
 ```
 N normal token
