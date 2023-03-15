@@ -1,8 +1,9 @@
+#!/usr/bin/env python
 import sys, base64
 import sputil.sentencepiece_model_pb2 as model
 
 if len(sys.argv) != 4:
-	print("Usage: add_tokens.py [original model] [output model] [token list]")
+	print("Usage: python add_tokens.py [original model] [output model] [token list]")
 	sys.exit(1)
 
 m = model.ModelProto()
