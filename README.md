@@ -1,6 +1,6 @@
 # LLaMA Tools
 
-Random tools for playing the the LLaMA LLM and its tokenizer
+Random tools for playing with the LLaMA LLM and its tokenizer.
 
 ## add_tokens.py
 
@@ -19,6 +19,7 @@ Usage: add_tokens.py [original model] [output model] [token list]
 N normal token
 C <control token>
 U user defined token
+UB YW5vdGhlciB1c2VyIHRva2Vu
 ```
 
 Lines begin with the token type, then are followed by a space and then the
