@@ -98,6 +98,6 @@ Usage: python merge_tokenizer.py [output model] [model a] [model b]
 
 Copyright &copy; 2023 Ronsor Labs. All rights reserved.
 
-This software is provided under the MIT license. For more information, see
-the `LICENSE` in this repository. Third-party components, especially those
-in `sputil/` may be provided under a different license.
+This software is provided under the MIT license. For more information, see the
+`LICENSE` in this repository. Third-party components, especially those in
+`sputil/` may be provided under a different license.
